@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
         [deskCalc divide:15.0];
         [deskCalc subtract:10.0];
         [deskCalc multiply:5];
-        NSLog(@"The result is %g", [deskCalc accumulator]);
+        NSLog(@"test The result is %g", [deskCalc accumulator]);
         
     }
     return 0;
