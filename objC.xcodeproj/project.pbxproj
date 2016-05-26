@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB31E5111CF67DDE00481F93 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31E5101CF67DDE00481F93 /* ClassA.m */; };
+		CB31E5141CF67E2C00481F93 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB31E5131CF67E2C00481F93 /* ClassB.m */; };
 		CBF95D2E1CF3EDEF00719A49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF95D2D1CF3EDEF00719A49 /* main.m */; };
 		CBF95D361CF43DC300719A49 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF95D351CF43DC300719A49 /* Fraction.m */; };
 		CBF95D391CF43F5B00719A49 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF95D381CF43F5B00719A49 /* Calculator.m */; };
@@ -25,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CB31E50F1CF67DDE00481F93 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		CB31E5101CF67DDE00481F93 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		CB31E5121CF67E2C00481F93 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		CB31E5131CF67E2C00481F93 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 		CBF95D2A1CF3EDEF00719A49 /* objC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objC; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF95D2D1CF3EDEF00719A49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBF95D341CF43DC300719A49 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -68,6 +74,10 @@
 				CBF95D351CF43DC300719A49 /* Fraction.m */,
 				CBF95D371CF43F5B00719A49 /* Calculator.h */,
 				CBF95D381CF43F5B00719A49 /* Calculator.m */,
+				CB31E50F1CF67DDE00481F93 /* ClassA.h */,
+				CB31E5101CF67DDE00481F93 /* ClassA.m */,
+				CB31E5121CF67E2C00481F93 /* ClassB.h */,
+				CB31E5131CF67E2C00481F93 /* ClassB.m */,
 			);
 			path = objC;
 			sourceTree = "<group>";
@@ -130,7 +140,9 @@
 			files = (
 				CBF95D391CF43F5B00719A49 /* Calculator.m in Sources */,
 				CBF95D2E1CF3EDEF00719A49 /* main.m in Sources */,
+				CB31E5111CF67DDE00481F93 /* ClassA.m in Sources */,
 				CBF95D361CF43DC300719A49 /* Fraction.m in Sources */,
+				CB31E5141CF67E2C00481F93 /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +263,7 @@
 				CBF95D331CF3EDEF00719A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
